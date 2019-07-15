@@ -1,0 +1,30 @@
+.btn{
+    padding: 10px 15px;
+    @include btn(1.5rem, 1.8em);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 100px;
+    box-shadow: 2px 2px 30px -15px #787878;
+    // border-top-left-radius: 600px 600px;
+    // border-top-right-radius: 600px 600px;
+    // border-bottom-left-radius: 600px 600px;
+    // border-bottom-right-radius: 600px 600px;
+}
+.btn--main{
+    background-image: $secon-color;
+    transition: background-image .7s linear;
+    &:hover{
+        background-image: linear-gradient(to right,#dd2574  0%,#fc5131 100%)
+    }
+    @media only screen and(max-width:300px) {
+        background: #fc5131;
+    }
+}
+.btn-secon{
+    @include button ($secon-color, 1em, 1em);
+    color: #ffffff;
+}
+.conteiner-button{
+    display: flex;
+    justify-content: center;
+}

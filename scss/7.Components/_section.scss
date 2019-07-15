@@ -1,0 +1,114 @@
+.c-section{
+    padding-top: 15em;
+}
+.c-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.c-titles--center{
+    align-items: center;
+}
+.section__title{
+    color: #dd2574;
+    margin: 0;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+}
+.section__subtitle{
+    font-size: 3.2em;
+    margin: 0;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+    span{
+        display: block;
+        color: #EF3C4F;
+    }
+}
+.section__subtitle--center{
+    text-align: center;
+}
+.section__sub-subtitle{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+// SERVICE
+.c-section--services{
+    padding-top: 15em;
+}
+
+
+
+
+
+// WORK
+.line-progress{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &::after,
+    &::before{
+        content: "";
+        display: block;
+        height: 4px;
+        border-radius: 4px;
+        position: absolute;
+        left: 0;
+        bottom: 1rem;
+    }
+    &::before{
+        width: 100%;
+        background-color: #ababab;
+        
+    }
+    &::after{
+        background: $secon-color;
+    }
+}
+
+.line-progress__date{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    display: block;
+}
+
+.line-progress-1::after{
+    width: 75%;
+}
+.line-progress-2::after{
+    width: 80%;
+}
+.line-progress-3::after{
+    
+    width: 55%;
+}
+// TEAM
+
+.team__check-list{
+    font-size: 1.6em; 
+    &::before{
+        font-family: 'FontAwesome';
+        content: '\f14a';
+        color: $color-text;
+    }
+}
+// SOLUTION
+.next-and-back{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next,
+.back{
+    width: 5em;
+}
+// ALLIES
+.c-allies{
+    display: flex;
+    justify-content: space-between;
+}
+.c-allies__item{
+    width: 23%;
+}

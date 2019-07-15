@@ -1,0 +1,76 @@
+.card{
+    margin: 20px auto;
+}
+.card--padding{
+    padding: 3em 1em;
+}
+
+.card--shadow{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .2);
+}
+.card--radius{
+    border-radius: .75em;
+}
+.card__img{
+    border-radius: .75em .75em 0 0;
+}
+.card__title{
+    font-size: 2em;
+    text-align: center;
+    a{
+        color: #000000;
+        transition: color .3s linear;
+        &:hover{
+            color: #944179;
+        }
+    }
+}
+.card__text{
+    text-align: center;
+    padding: 1em;
+    color: $color-text;
+}
+
+.card__body,
+.card__footer,
+.card-need{
+    padding: 1em;
+}
+.card__img--round{
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+}
+.card__price{
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to bottom, #fc5131 0%,#dd2574 100%);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+    &::before{
+        content: "$";
+        display: block;
+        position: absolute;
+        left: 40%;
+        top: -8px;
+    }
+    .card__price-month{
+        font-size: .5em;
+        display: block;
+        text-align: center;
+    }
+}
+.card__img-price{
+    width: 6em;
+    display: block;
+    margin: 3em auto;
+}
+.card__text-price{
+    width: 70%;
+    margin: 1em auto;
+    padding-top: 1em;
+}
+.card-need-basic{
+    background: $secon-color-b;
+}

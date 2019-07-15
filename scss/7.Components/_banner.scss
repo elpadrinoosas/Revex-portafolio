@@ -1,0 +1,27 @@
+// .article-banner{
+
+// }
+.article-banner__title{
+    font-size: 4.2em;
+    color: #ffffff;
+}
+.article-banner__text{
+    font-size: 1.6em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+
+.header-banner__img{
+    animation: banner__img 1s linear .3s infinite alternate;
+    
+}
+@keyframes banner__img{
+    from{
+        transform: translateY(2em);
+    }
+    to{
+        transform: translateY(4em)
+    }
+}

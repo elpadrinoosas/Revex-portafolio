@@ -1,0 +1,21 @@
+.header__top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #252525;
+    z-index: 100;
+}
+
+
+
+
+
+
+.header__banner{
+    background-image: url(../img/header/header-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 5em;
+}
