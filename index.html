@@ -326,11 +326,13 @@
                     sint.</p>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-2 ">
-                    <a class="btn-secon back" href="#">&#60;</a>
-                    <a class="btn-secon next" href="#">&#62;</a>
+                <div class="col-12 col-md-4 ">
+                    <div class="container-btn">
+                        <a class="btn-secon back" href="#">&#60;</a>
+                        <a class="btn-secon next" href="#">&#62;</a>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-5">
+                <div class="col-12 col-md-8">
                     <div class="traslate">
                         <div class="card card--radius card--shadow testimonial">
                             <p class="testimonial__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam magni veniam
@@ -344,7 +346,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-5">
+                <div class="col-12 col-md-8 d-none">
                     <div class="traslate">
                         <div class="card card--radius card--shadow testimonial">
                             <p class="testimonial__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam magni veniam
@@ -382,63 +384,64 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2>About Us</h2>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="footer__header">About Us</h2>
                     <p class="u-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit enim aliquam quis
                         hic eligendi minus nobis esse ab pariatur, in accusantium soluta architecto magnam at maxime
                         autem temporibus eveniet! Cupiditate.</p>
                     <ul class="list-sociales">
                         <li class="list-sociales__item">
-                            <img class="list-sociales__icon" src="img/footer/facebook.svg" alt="">
+                            <i class="list-sociales__icon fab fa-facebook-f "></i>
                         </li>
                         <li class="list-sociales__item">
-                            <img class="list-sociales__icon" src="img/footer/twitter.svg" alt="">
+                            <i class="list-sociales__icon fas fa-globe"></i>
                         </li>
                         <li class="list-sociales__item">
-                            <img class="list-sociales__icon" src="img/footer/internet.svg" alt="">
+                            <i class="list-sociales__icon fab fa-twitter"></i> 
                         </li>
                         <li class="list-sociales__item">
-                            <img class="list-sociales__icon" src="img/footer/youtube.svg" alt="">
+                            <i class="list-sociales__icon fab fa-youtube"></i> 
                         </li>
                     </ul>
                 </div>
-                <div class="col">
-                    <h2>LATEST BLOG POSTS</h2>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="footer__header">LATEST BLOG POSTS</h2>
                     <div class="blogs">
                         <article class="blogs__item">
-                            <img src="img/solution/seo.jpg" alt="">
-                            <div class="blogs__date">
-                                <h1>Search Engine And...</h1>
-                                <span>29 Oct 2018</span>
+                            <img class="blogs__img" src="img/solution/seo.jpg" alt="">
+                            <div class="blogs__data">
+                                <h3 class="blogs__title">Search Engine And...<span class="blogs__date">29 Oct 2018</span></h3>
+                                
                             </div>
                         </article>
                         <hr>
                         <article class="blogs__item">
-                            <img src="img/solution/web-design.jpg" alt="">
-                            <div class="blogs__date">
-                                <h1>Web Design And...</h1>
-                                <span>12 Aug 2018</span>
+                            <img class="blogs__img" src="img/solution/web-design.jpg" alt="">
+                            <div class="blogs__data">
+                                <h3 class="blogs__title">Web Design And...<span class="blogs__date">12 Aug 2018</span></h3>
+                                
                             </div>
                         </article>
                     </div>
                 </div>
-                <div class="col">
-                    <h2>OUR LINKS</h2>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <h2 class="footer__header">OUR LINKS</h2>
                     <ul class="navigation__menu--secon">
-                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon">Home</a></li>
-                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon">Services</a>
+                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon"><i class="fas fa-angle-right"></i> Services</a>
                         </li>
-                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon">Blog</a></li>
-                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon">About</a></li>
-                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon">Contact</a></li>
+                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon"><i class="fas fa-angle-right"></i> Blog</a></li>
+                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon"><i class="fas fa-angle-right"></i> About</a></li>
+                        <li class="navigation__item--secon"><a href="#" class="navigation__link--secon"><i class="fas fa-angle-right"></i> Contact</a></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="footer__header">Contact us</h2>
                     <ul class="list-contact">
-                        <li class="list-contact__item">4131 Main St. Mill Vilage, NS BOJ 2HO, Canada</li>
-                        <li class="list-contact__item">+(202) 555-0178</li>
-                        <li class="list-contact__item">+(202) 666-01779</li>
-                        <li class="list-contact__item">hello@yourbrand.com</li>
+                        <li class="list-contact__item"> <i class="list-contact__icon fas fa-map-marker-alt"></i> 4131 Main St. Mill Vilage</li>
+                        <li class="list-contact__item"> <i class="list-contact__icon fas fa-phone-alt"></i> +(202) 555-0178</li>
+                        <li class="list-contact__item"> <i class="list-contact__icon fas fa-tty"></i> +(202) 666-01779</li>
+                        <li class="list-contact__item"> <i class="list-contact__icon fas fa-envelope-open"></i> hello@yourbrand.com</li>
                     </ul>
                 </div>
             </div>

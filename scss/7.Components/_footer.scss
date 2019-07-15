@@ -14,15 +14,73 @@
         z-index: 1;
     }
 }
+.footer__header{
+    text-transform: uppercase;
+    margin-top: 2em;
+    color: #555555;
+}
+// ABOUT US
 .list-sociales{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
 }
 .list-sociales__item{
     width: 25%;
 }
 .list-sociales__icon{
-    width: 50%;
     display: block;
-    margin: .2em auto;
+    height: 17px;
+    color: #555555;
+}
+
+// BLOG ===========================================================================
+
+.blogs__item{
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.blogs__img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+}
+.blogs__data{
+    padding: 1em 0 1em 1em ;
+}
+.blogs__title{
+    font-size: 1.4rem;
+    margin: 0;
+    color: #555555;
+    .blogs__date{
+        padding-top: 5px;
+        font-size: 1.3rem;
+        display: block; 
+        font-weight: normal;
+    }
+}
+// OUR LINK =======================================================================
+
+
+.navigation__item--secon{
+    font-size: 1.4em;
+    height: 3.2em;
+    line-height: 3.2em;
+}
+.navigation__link--secon{
+    color: #555555;
+}
+
+
+// CONTACT
+
+.list-contact__item{
+    height: 3.2em;
+    font-size: 1.4em;
+    line-height: 3.2em  
+}
+.list-contact__icon{
+    font-size: 1.4em; 
 }

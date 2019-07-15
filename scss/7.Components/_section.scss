@@ -129,3 +129,22 @@
     position: relative;
     z-index: 10;
 }
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.back{
+    margin-right: 5px;
+}
+.next{
+    margin-left: 5px;
+}
+
+.back, .next{
+    &:hover{
+        background: transparent;
+        border: 2px solid #dd2574;
+    }
+}
