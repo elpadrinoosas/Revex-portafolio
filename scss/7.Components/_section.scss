@@ -87,11 +87,6 @@
 
 .team__check-list{
     font-size: 1.6em; 
-    &::before{
-        font-family: 'FontAwesome';
-        content: '\f14a';
-        color: $color-text;
-    }
 }
 // SOLUTION
 .next-and-back{
@@ -108,7 +103,29 @@
 .c-allies{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 10;
 }
 .c-allies__item{
-    width: 23%;
+    width: 15%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 20px #ababab;
+    cursor: pointer;
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        filter: grayscale(100%) opacity(0.5);
+        border-radius: 20px;
+    }
+    &:hover img{
+        filter: none;
+    }
+}
+// TESTIMONIAL
+.c-section--unique{
+    position: relative;
+    z-index: 10;
 }
