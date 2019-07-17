@@ -6,38 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>REVEX</title>
+    <link rel="stylesheet" href="lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="body">
     <header class="header">
         <div class="header__top">
-            <div class="container u-height-100">
-                <div class="row u-height-100 u-align-i-center">
-                    <div class="col-6">
-                        <h1 class="header__title">
-                            <a class="header__link" href="3">
-                                <img class="header__img" src="img/logo-light.png" alt="Logo de Revex.">
-                            </a>
-                        </h1>
+            <div class="container u-height-100 container--header">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a href="#" class="navbar-brand">
+                        <img class="header__img" src="img/logo-light.png" alt="Logo de Revex.">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-target="#burguer" data-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="burguer" class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav w-50 justify-content-between">
+                            <li class="navbar-item navigation__item"><a href="#" class="navbar-link navigation__link">Home</a></li>
+                            <li class="navbar-item navigation__item"><a href="#" class="navbar-link navigation__link">Services</a></li>
+                            <li class="navbar-item navigation__item"><a href="#" class="navbar-link navigation__link">Pages</a></li>
+                            <li class="navbar-item navigation__item"><a href="#" class="navbar-link navigation__link">Blog</a></li>
+                            <li class="navbar-item navigation__item"><a href="#" class="navbar-link navigation__link">About Us</a></li>
+                            <li class="navbar-item navigation__item"><a href="#" class="navbar-link navigation__link">Contact Us</a></
+                        </ul>
                     </div>
-                    <div class="col-6">
-                        <div class="navigation__container-bars">
-                            <i class="fas fa-bars navigation__bars"></i>
-                        </div>
-                        <nav class="navigation">
-                            <ul class="navigation__menu">
-                                <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Services</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Pages</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">About Us</a></li>
-                                <li class="navigation__item"><a href="#" class="navigation__link">Contact Us</a></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                </nav>
             </div>
         </div>
         <div class="header__banner">
@@ -447,7 +443,11 @@
             </div>
         </div>
     </footer>
-    <script src="JS/all.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="lib/jquery-3.4.1.min.js"></script>
+    <script src="lib/owl.carousel.min.js"></script>
 </body>
 
 </html>
