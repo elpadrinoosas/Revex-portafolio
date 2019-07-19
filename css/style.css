@@ -217,11 +217,7 @@ img {
 }
 .btn--main:hover {
   background-image: linear-gradient(to right, #dd2574 0%, #fc5131 100%);
-}
-@media only screen and (max-width: 300px) {
-  .btn--main {
-    background: #fc5131;
-  }
+  color: white;
 }
 
 .btn-secon {
@@ -621,6 +617,10 @@ img {
 
 :root {
   font-size: 10px;
+}
+
+.color-fucsia {
+  color: #dd2574;
 }
 
 /*# sourceMappingURL=style.css.map */

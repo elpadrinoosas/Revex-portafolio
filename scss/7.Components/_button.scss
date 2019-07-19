@@ -14,11 +14,10 @@
     background-image: $secon-color;
     transition: background-image .7s linear;
     &:hover{
-        background-image: linear-gradient(to right,#dd2574  0%,#fc5131 100%)
+        background-image: linear-gradient(to right,#dd2574  0%,#fc5131 100%);
+        color: white;
     }
-    @media only screen and(max-width:300px) {
-        background: #fc5131;
-    }
+    
 }
 .btn-secon{
     @include button ($secon-color, 1em, 1em);
