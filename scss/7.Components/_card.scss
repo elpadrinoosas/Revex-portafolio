@@ -1,5 +1,5 @@
 .card{
-    margin: 20px auto;
+    // margin: 20px auto;
 }
 .card--padding{
     padding: 3em 1em;
@@ -24,6 +24,9 @@
             color: #944179;
         }
     }
+}
+.card__title--businees {
+    font-size: 1.5em;
 }
 .card__text{
     text-align: center;
@@ -55,6 +58,17 @@
         left: 40%;
         top: -8px;
     }
+    .card__price-month{
+        font-size: .5em;
+        display: block;
+        text-align: center;
+    }
+}
+.card__price-white{
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
     .card__price-month{
         font-size: .5em;
         display: block;
@@ -98,13 +112,20 @@
         }
     }
 }
-.traslate{
+.card-traslate{
     overflow: hidden;
     position: relative;
+    width: 100%;
     &:hover{
         &::after{
             transform: translate(0);
             opacity: 1;
+            height: 100%;
+        }
+        p, span, img{
+            color: #ffffff;
+            position: relative;
+            z-index: 100;
         }
     }
     &::after{
@@ -116,10 +137,9 @@
         transform: translateX(100%);
         position: absolute;
         left: 0;
-        top: 20px;
+        top: 0;
         border-radius: .75em;
-        transition: transform .4s linear, opacity .4s linear;
-        opacity: 0;
+        transition: transform .2s linear, opacity .4s linear;
     }
 }
 .testimonial__text{

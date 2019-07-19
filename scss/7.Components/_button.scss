@@ -24,6 +24,10 @@
     @include button ($secon-color, 1em, 1em);
     color: #ffffff;
 }
+.btn--white{
+    background-color: #ffffff;
+    color: #787878;
+}
 .conteiner-button{
     display: flex;
     justify-content: center;

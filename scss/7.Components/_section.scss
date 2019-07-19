@@ -1,5 +1,5 @@
 .c-section{
-    padding-top: 15em;
+    padding-top: 10em;
 }
 .c-titles{
     display: flex;
@@ -34,7 +34,7 @@
 }
 // SERVICE
 .c-section--services{
-    padding-top: 15em;
+    padding-top: 4em;
 }
 
 
@@ -98,7 +98,19 @@
 .next,
 .back{
     width: 5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    i{
+        font-size: 2em;
+    }
+    &:hover{
+        i{    
+        color: #dd2574;
+        }
+    }
 }
+
 // ALLIES
 .c-allies{
     display: flex;
@@ -107,7 +119,13 @@
     z-index: 10;
 }
 .c-allies__item{
-    width: 15%;
+    width: 40%;
+    @media screen and (min-width: 768px) and (max-width: 992px){
+        width: 30%;
+    }
+    @media screen and (min-width: 992px){
+        width: 15%;
+    }
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 3px 3px 20px #ababab;
